@@ -33,9 +33,9 @@
         <div data-role="view" id="welcome" data-layout="default" class="welcome-scrn form-view" data-model="app.Login" data-init="app.Login.init" data-show="app.Login.show">
             <div data-role="header"></div>
             <div class="center-img">
-                <img src="styles/images/logo-watchit.png"/>
+                <img style="display: block horizontal-align: center" src="styles/images/logo-watchit.png"/>
             </div>
-            <h1 class="app-logo hide-text center-block">Telerik <small>DevCloud</small></h1>
+            <!--<h1 class="app-logo hide-text center-block center-text">watch<large>.it</large></h1>-->
             <h2 class="app-name center-text">Watch<large>It</large></h2>
             <form id="login-form">
                 <ul data-role="listview" data-style="inset">
@@ -70,20 +70,5 @@
 
             <div data-role="footer"><p>&copy; <span data-bind="text: getYear"></span> Enigma Inc.</p></div>
         </div>
-        <!-- welcome-layout-->
-         <div data-role="layout" data-id="welcome-layout">
-        <div data-role="footer">
-            <div data-role="tabstrip">
-
-                <a href="views/driverMode.html" data-icon="compose">Report</a>
-                <a href="views/watchMode.html" data-icon="mosviewed">Watch</a>
-                <a href="views/watchMode.html" data-icon="mosviewed">Warn Me</a>
-              
-            </div>
-        </div>
-    </div>
-
-        
-        
     </body>
 </html>
